@@ -79,6 +79,7 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    padding: 0px 10px;
 }
 .single-service{
     background-color: white;
@@ -131,6 +132,7 @@ header{
         background: none;
         color: red;
     }
+}
     /* first section responsive start here */
     
      @media only screen and (max-width:688px){
@@ -139,9 +141,12 @@ header{
             grid-template-columns: repeat(1, 1fr);
             gap: 10px;
             width: 100%;
-        }
-        
+        }   
+        header{
+            height: 60vh;
+        }      
 }
+
 @media only screen and (min-width:689px) and (max-width:1099px){
             .service-parent{
             display: grid;
