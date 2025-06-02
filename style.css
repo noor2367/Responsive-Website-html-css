@@ -97,6 +97,58 @@ header{
     margin: 10px 0px;
     font-weight: bold;
 }
+/* second-section of main tag code start here */
+.second-section{
+    background-color: #1b4f72;
+    padding: 50px 0px 100px 0px;
+}
+.smart-parent{
+    margin: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.smart-parent > *{
+    flex-basis: 100%;
+}
+.smart-image-div{
+   
+}
+.smart-image-div img{
+    width: 100%;
+}
+.smart-text{
+    color: white;
+    
+}
+.smart-parent h4{
+    text-transform: uppercase;
+}
+.smart-text h2{
+    margin: 20px 0px;
+    font-size: 30px;
+}
+.smart-text p{
+    line-height: 25px;
+}
+.smart-text a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: bisque;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 40px;
+    letter-spacing:4px;
+}
+
+
+
+
+
+
+
+
 
 /* Responsive work start here */
 @media only screen and (max-width:940px){
@@ -144,14 +196,55 @@ header{
         }   
         header{
             height: 60vh;
-        }      
+        }  
+
+    .smart-parent{
+            display:block;
+            justify-content: space-between;
+            align-items: center;
+       }    
+    .smart-text{
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .smart-text h4{
+        font-size:12px;
+    }
+    .smart-text h2{
+        font-size: 22px;
+    }
+    .smart-text p{
+        font-size:18px;
+    }
+   .second-section{
+    background-color: #1b4f72;
+    padding: 50px 0px 50px 0px;
+   }
+
+        
 }
 
 @media only screen and (min-width:689px) and (max-width:1099px){
-            .service-parent{
+        .service-parent{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
             width: 100%;
         }
+         .smart-parent{
+            display:block;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+       }    
+         .smart-text{
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+       }
+        .smart-text h2{
+            font-size: 20px;
+        }
+        
     }
