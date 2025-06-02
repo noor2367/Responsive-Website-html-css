@@ -102,6 +102,13 @@ header{
     background-color: #1b4f72;
     padding: 50px 0px 100px 0px;
 }
+.smart-tittle{
+    text-align: center;
+    color: yellow;
+    font-size: 35px;
+    letter-spacing: 0.2em;
+    margin-bottom:30px;
+}
 .smart-parent{
     margin: 0px 20px;
     display: flex;
@@ -209,13 +216,13 @@ header{
         margin-top: 20px;
     }
     .smart-text h4{
-        font-size:12px;
+       
     }
     .smart-text h2{
-        font-size: 22px;
+        font-size:30px;
     }
     .smart-text p{
-        font-size:18px;
+        font-size:25px;
     }
    .second-section{
     background-color: #1b4f72;
@@ -240,11 +247,10 @@ header{
        }    
          .smart-text{
         color: white;
-        text-align: center;
         margin-top: 20px;
        }
         .smart-text h2{
-            font-size: 20px;
+            font-size:30px;
         }
         
     }
