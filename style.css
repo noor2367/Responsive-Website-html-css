@@ -197,7 +197,60 @@ header{
     font-size: 20px;
     padding: 10px 0px 20px 0px;
 }
+/* fourth section code start here*/
+.fouth-section{
+    background-color:#154360 ;
+    padding: 100px 0px;
+    color: white;
+}
+.advice-parent{
+    display:flex;
+    gap: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.advice-parent > * {
+    flex-basis: 100%;
+}
 
+.about-img-box img{
+    width: 100%;
+}
+.single-advice p{
+    margin: 20px 0px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.single-advice h3{
+    font-size: 25px;
+    border-bottom:2px solid red ;
+    padding-bottom: 20px;
+}
+.single-advice h4{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.single-advice a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.advance-icon{
+    text-align: center;
+}
+.advance-icon a{
+    margin: 0 5px;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.advance-icon a:hover{
+    background-color: wheat;
+}
 
 
 
@@ -286,6 +339,21 @@ header{
     grid-gap:15px;
     margin-top: 50px;
 }
+/* about section code start here */
+.advice-parent{
+    display:block;
+    margin-right:30px;
+    margin-left:30px;
+}
+.advance-icon{
+    text-align: left;
+}
+.advance-icon a{
+    margin: 10px 5px;
+}
+.single-advice h3{
+    margin-top: 50px;
+}
 
         
 }
@@ -310,6 +378,7 @@ header{
         .smart-text h2{
             font-size:30px;
         }
+        /* about section code start here */
       .about-parent{
         display: block;
         margin-left:70px;
@@ -320,6 +389,20 @@ header{
         grid-template-columns: repeat(1, 1fr);
         grid-gap:20px;
         margin-top: 50px;
-}
+    }
+    .advice-parent{
+        display:flex;
+        margin-right:70px;
+        margin-left:70px;
+    }
+    .advance-icon{
+    text-align:center;
+
+    }
+
+    .advance-icon a{
+        margin: 10px 5px;
+    }
+    /* about section code end here */
         
     }
