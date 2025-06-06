@@ -251,6 +251,67 @@ header{
 .advance-icon a:hover{
     background-color: wheat;
 }
+/* contact section code start here */
+.contact-section{
+    background-image: linear-gradient(#3058a25e, #4089c7),url(image/istockphoto-1419766496-1024x1024.jpg);
+    padding: 100px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center, center ;
+}
+form{
+    background-color: #2e357a;
+    width:60%;
+    margin:0 auto;
+    padding: 50px 60px;
+    border: 6px solid #4497d3;
+    border-radius: 10px;
+}
+form h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+form p{
+    color: white;
+    text-align: center;
+    margin: 30px 0px;
+    letter-spacing: 0.1em;
+}
+.form-input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 50px 0px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 3px solid #4497d3;
+}
+.form-input::placeholder{
+    color: #4497d3;
+    font-weight: bold;
+}
+.submit-btn{
+    display: block;
+    margin: 0% auto;
+    padding: 5px 40px;
+    font-size: 20px;
+    color: white;
+    background: none;
+    outline-style: ridge;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.submit-btn:hover{
+    background-color: #16213e;
+}
+
+
+
 
 
 
@@ -354,6 +415,13 @@ header{
 .single-advice h3{
     margin-top: 50px;
 }
+/* contact section code start here */
+form{
+    background-color: #2e357a;
+    width:90%;
+    padding:20px 30px;
+    
+}
 
         
 }
@@ -404,5 +472,13 @@ header{
         margin: 10px 5px;
     }
     /* about section code end here */
+
+    /* contact section code start here */
+    form{
+    background-color: #2e357a;
+    width:90%;
+    padding:40px 50px;
+    
+}
         
     }
