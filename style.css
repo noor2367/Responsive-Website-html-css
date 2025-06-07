@@ -170,6 +170,7 @@ header{
 }
 .about-vanila ul {
     margin: 20px 0px;
+    list-style-position: inside;
 }
 .about-vanila a{
     text-decoration: none;
