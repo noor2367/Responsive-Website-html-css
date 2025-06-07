@@ -371,6 +371,50 @@ form p{
     list-style-position: inside;
     margin: 10px 0px;
 }
+/* footer code start here */
+.footer-parent{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    gap: 80px;
+}
+footer{
+    background-color: #154360;
+    padding: 100px 0 50px 0;
+}
+.single-footer{
+    width: 100%;
+}
+.single-footer h5{
+    margin-bottom: 25px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+.single-footer-links p{
+    margin-bottom: 15px;
+}
+.single-footer-links a{
+    text-decoration: none;
+    color: white;
+}
+.single-footer-social ul{
+    display: flex;
+}
+.single-footer-social ul li{
+    list-style-type: none;
+}
+.single-footer-social ul li a{
+    text-decoration: none;
+    color: white;
+    margin:0 5px;
+    background-color: #0a273863;
+    padding: 8px;
+}
+
+
+
+
 
 
 
@@ -505,6 +549,21 @@ form{
 .single-takecare{
     margin-bottom: 70px;
 }
+.footer-parent{
+    display: flex;
+    flex-direction: column;
+    margin-left:30px;
+    margin-right:30px;
+    color: white;
+    gap:50px;
+}
+.single-footer{
+    text-align: center;
+}
+.single-footer-social ul{
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -580,6 +639,11 @@ form{
     }
     .single-takecare{
         margin-bottom: 80px;
+    }
+    /* footer section code start here */
+    .footer-parent{
+        margin-left:70px;
+        margin-right:70px;
     }
         
     }
